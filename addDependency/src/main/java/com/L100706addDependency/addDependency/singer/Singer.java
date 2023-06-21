@@ -16,6 +16,7 @@ import java.util.List;
 @AllArgsConstructor
 @ToString
 @Entity
+@Builder
 public class Singer {
     //בשביל להגדיר טבלה עם id
     @Id
